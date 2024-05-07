@@ -1289,7 +1289,7 @@ footer p{
     }
 
     section.hero{
-        height: 200vh;
+        height: 160vh;
         padding-top: 50vh;
         background: #131B25;
     }
@@ -1319,7 +1319,10 @@ footer p{
         padding-left: 0;
         padding-right: 0;
     }
-
+    .our-product .section-title h2{
+        text-align: center;
+        padding-top: 40px;
+    }
     .our-product .offside-img, 
     .services .offside-img,
     .industries .offside-img{
@@ -1347,7 +1350,91 @@ footer p{
     .social-media ul{
         text-align: left;
     }
+
+    .industries .section-title{
+        margin-left: 0px;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+    .page-cover .section-title{
+        margin-left: 0px;
+    }
+    .page-cover .section-title input{
+        margin-left: 55px;
+    }
+    .page-cover .section-title .blog-src button{
+        margin-left: 55px;
+    }
+    .detail .article {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        width: 102%;
+    }
+    .detail .article::after {
+        display: contents;
+    }
+    .detail .col-md-7 {
+        padding-left: 0;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .fs-point {
+        display: grid;
+        width: 200%;
+    }
+    .col-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .fs-card-1 {
+        display: flex;
+        background: transparent;
+    }
+    .fs-card-1 h4 {
+        align-content: center;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .services .section-title h2{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .how-we-work .section-title h2{
+        padding-bottom: 20px;
+    }
+    .our-work .section-title h2{
+        text-align: center;
+    }
+    .brands .section-title {
+        text-align: center;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .case-studies .ratio img{
+        padding-left: 30px;
+    }
+    .record-cards {
+        position: sticky;
+        margin-left: 45px;
+    }
+    .case-item:nth-child(even)::before {
+        margin-top: 200px;
+    }
+    .case-studies.with-right-image .col-md-7 {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .case-studies.with-right-image .record-cards {
+        padding-left:0;
+        justify-content: center;
+        padding-right:35px;
+    }
 }
+
 
 
 
