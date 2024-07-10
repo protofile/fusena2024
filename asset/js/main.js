@@ -25,4 +25,15 @@ $(document).ready(function () {
     $(this).next(".accordion-content").slideToggle();
     $(this).addClass("active");
   });
+
+  $(".grid-item img").click(function () {
+    $(".gallery-overlay").addClass("show");
+    $(".gallery-overlay .popup").html(
+      "<img src=" + $(this).attr("src") + " alt='images'/>"
+    );
+  });
+  $(".gallery-overlay .close-bt").click(function () {
+    $(".gallery-overlay").removeClass("show");
+    $(".gallery-overlay .popup img").remove();
+  });
 });
