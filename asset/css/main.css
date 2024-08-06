@@ -21,6 +21,7 @@ h6 {
 
 .master {
   overflow-x: hidden;
+  margin-top: 100px;
 }
 a:hover {
   text-decoration: none;
@@ -1992,3 +1993,35 @@ footer p {
   }
   /* GALLERY */
 }
+/*THANK YOU*/
+.thank-you-section {
+  background: #1f2f43;
+}
+.thank-you-text {
+  width: 100%;
+  float: left;
+}
+.thank-you-text h3 {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.thank-you-text p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 30px;
+}
+.thank-you-pic {
+  width: 100%;
+  float: left;
+}
+.thank-you-pic img {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .thank-you-text {
+    padding: 0 15px;
+    text-align: center;
+  }
+}
+/*THANK YOU END*/
