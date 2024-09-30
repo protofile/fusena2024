@@ -2025,3 +2025,11 @@ footer p {
   }
 }
 /*THANK YOU END*/
+
+/*FUSENACADEMY*/
+.fusenacademy{
+  background: #1f2f43 url(../images/bottom-left-bg.png) no-repeat bottom left;
+}
+.fusenacademy p{
+  color: rgba(255,255,255,0.8);
+}
